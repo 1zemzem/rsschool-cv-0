@@ -1,6 +1,6 @@
 # TATSIANA ZIAMLIKOVA
 
-<img src="/rsschool-cv/photo.jpg" width="200" height="200" />
+<img src="/rsschool-cv/photo.jpg" height="200" />
 
 ## CONTACT ME:
 * Phone: +375-29-328-24-44     
