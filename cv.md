@@ -1,6 +1,6 @@
 # TATSIANA ZIAMLIKOVA
 ***
-![photo](rsschool-cv/photo.jpg)
+![photo](/rsschool-cv/photo.jpg)
 ***
 ## CONTACT ME:
 * Phone: +375-29-328-24-44     
