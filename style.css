@@ -48,19 +48,43 @@ body {
   justify-content: space-between;
 }
 
-.header{
-    border: 1px solid red;
+html {
+  scroll-behavior: smooth;
 }
 
-.main{
-    border: 1px solid black;
+.header {
+  border: 1px solid red;
 }
 
-.footer{
-    border: 1px solid blue;
+.main {
+  border: 1px solid black;
+}
+
+.footer {
+  border: 1px solid blue;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 15px;
+  line-height: 50px;  
+  color: aliceblue;
+  text-decoration: none;
+  transition: .3s;
+
+}
+
+.nav-link:hover {
+    color: blue
+}
