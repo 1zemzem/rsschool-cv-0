@@ -8,20 +8,27 @@
     <link rel="icon" href="assets/favicon.ico" />
     <title>CV</title>
   </head>
-  <body>    
+  <body>
     <header class="header">
       <div class="container">
         <ul class="nav-list">
           <li class="nav-item">
             <a href="#Contacts" class="nav-link">Contacts</a>
           </li>
-          <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#About" class="nav-link">About</a>
+          </li>
           <li class="nav-item">
             <a href="#Skills" class="nav-link">Skills</a>
           </li>
-          <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+          <li class="nav-item">
+            <a href="#Code" class="nav-link">Code</a>
+          </li>
           <li class="nav-item">
             <a href="#Experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Work" class="nav-link">My Work</a>
           </li>
           <li class="nav-item">
             <a href="#Education" class="nav-link">Education</a>
@@ -32,30 +39,44 @@
         </ul>
       </div>
     </header>
+
     <main class="main">
-      <div class="container main-container">        
-         <section class="section" id="Profile">
-            <img src="assets/img/photo.jpg" alt="my photo" class="avatar">
-          <h1 class="section-title">Tatsiana Ziamliakova</h1>
-          <hr class="line"></hr>
+      <div class="container main-container">
+        <section class="section-main" id="Profile">
+          <div class="section-main-item">
+            <img src="assets/img/photo.jpg" alt="my photo" class="avatar" />
+          </div>
+          <div class="section-main-item">
+            <h1 class="section-main-title">Tatsiana Ziamliakova</h1>
+            <hr class="line"></hr>
+            <h3 class="section-title">Frontend Developer (React)</h3>
+          </div>
         </section>
-        
         <section class="section" id="Contacts">
           <h2 class="section-title">Contact me</h2>
-          <ul>
+          <ul class="section-content">
             <li>Phone: +375-29-328-24-44</li>
             <li>E-mail: 1zemliakova@gmail.com</li>
-            <li>Discord: 1zemzem#4274</li>
-            <li>
-              LinkedIn:
-              (https://www.linkedin.com/in/tatiana-ziamliakova-b94a55201/)
+            <li>Discord:
+              <a href="https://discord.gg/ydw5kJVP">
+                1zemzem#4274
+              </a>
             </li>
-            <li>GitHub: (https://github.com/1zemzem)</li>
+            <li>LinkedIn:
+              <a href="https://www.linkedin.com/in/tatsiana-ziamliakova/">
+                www.linkedin.com/in/tatsiana-ziamliakova
+              </a>              
+            </li>
+            <li>GitHub: 
+              <a href="https://www.github.com/1zemzem">
+                www.github.com/1zemzem
+            </a>
+          </li>
           </ul>
         </section>
         <section class="section" id="About">
           <h2 class="section-title">About</h2>
-          <p>
+          <p class="section-content">
             I have experience in JavaScript development (React.js). Developed
             SPA using React, Redux, TypeScript, unit testing, API interaction.
             Currently developing an application, implementing both client and
@@ -66,7 +87,7 @@
         </section>
         <section class="section" id="Skills">
           <h2 class="section-title">Hard skills</h2>
-          <ul>
+          <ul class="section-content">
             <li>HTML/ CSS</li>
             <li>JavaScript/ TypeScript</li>
             <li>React/ Redux</li>
@@ -80,63 +101,78 @@
         </section>
         <section class="section" id="Code">
           <h2 class="section-title">Code example</h2>
-          <p>
-            <pre>
-                <code>function makePassword(somePassword) {      
-                return function checkPassword(chekedPassword) {
-                if (somePassword === chekedPassword) {
-                    return true; 
-                } else {
-                    return false;               
-                };
-            };
-            };
-                </code>
-              </pre> 
-          </p>          
+          <div class="section-content">
+            <pre class="pre">
+              <code class="code-example">
+                function makePass(somePass) {
+                  return function checkPass(chekedPass) {
+                    if (somePass === chekedPass) {
+                      return true;
+                    } else {
+                      return false;
+                    }
+                  };
+                };      
+              </code>
+            </pre>
+          </div>
         </section>
         <section class="section" id="Experience">
           <h2 class="section-title">Experience</h2>
-          <p>
-            November 2021 – to the current time – “iTechArtGroup” - Frontend Web Developer - intern
-            Development with JavaScript (React.js). 
-            Working on practical tasks as close to working projects as possible, teamwork. 
-            Developed a SPA using React, Redux, TypeScript, unit testing, interaction with an API.
-            (https://github.com/1zemzem/ITechArt/tree/main/my-weather-app)
+          <p class="section-content ">
+            November 2021 – to the current time – “iTechArtGroup” - Frontend Web
+            Developer - intern Development with JavaScript (React.js). Working
+            on practical tasks as close to working projects as possible,
+            teamwork. Developed a SPA using React, Redux, TypeScript, unit
+            testing, interaction with an API.            
           </p>
+        </section>
+        <section class="section" id="Work">
+          <h2 class="section-title">My Work</h2>
+          <div class="section-content image-content">
+            <a href="https://1zemzem.github.io/ITechArt/">
+              <img src="/assets/img/weather.jpg" class="section-image" alt="App">
+            </a>
+            <a href="https://relaxed-liskov-cfc4dd.netlify.app/">
+              <img src="/assets/img/yoga-app.jpg" class="section-image" alt="App">
+            </a>
+          </div>
           
         </section>
         <section class="section" id="Education">
           <h2 class="section-title">Education</h2>
-          <p>
+          <p class="section-content">
             February – October 2021 – Coding School “TeachMeSkills”
           </p>
         </section>
         <section class="section" id="Languages">
           <h2 class="section-title">Languages</h2>
-          <ul>
+          <ul class="section-content">
             <li>English: intermediate</li>
             <li>Polish: pre-intermediate</li>
             <li>Belorussian: native</li>
             <li>Russian: native</li>
           </ul>
-        </section> 
+        </section>
       </div>
     </main>
+
     <footer class="footer">
       <div class="container">
         <ul class="footer-items">
-            <li class="footer-item">  
-                ©2022          
-            </li>
-            <li class="footer-item"> 
-                <a href="https://github.com/1zemzem" class="nav-link">Tatsiana Ziamliakova</a>           
-            </li>            
-            <li class="footer-item">          
-                <a href="https://rs.school/js/" class="nav-link">
-                    <img src="assets/img/icons/rs_school_js.svg" alt="rss logo" class="logo">
-                </a>    
-            </li>
+          <li class="footer-item">©2022</li>
+          <li class="footer-item">
+            <a href="https://github.com/1zemzem" class="nav-link">Tatsiana Ziamliakova</a>
+          </li>
+          <li class="footer-item">
+            <a href="https://rs.school/js/" class="nav-link">
+              <img
+                src="assets/img/icons/rs_school.svg"
+                alt="rss logo"
+                class="logo"
+              />
+            </a>
+          </li>
         </ul>
       </div>
     </footer>
