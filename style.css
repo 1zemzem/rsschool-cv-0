@@ -193,7 +193,7 @@ html {
   list-style: none;
 }
 
-.footer-item { 
+.footer-item {
   line-height: 60px;
   text-decoration: none;
   color: #000;
@@ -202,5 +202,5 @@ html {
 .logo {
   width: 100%;
   max-width: 55px;
-  height: auto;  
+  height: auto;
 }
